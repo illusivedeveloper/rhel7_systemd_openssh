@@ -1,0 +1,5 @@
+$ docker container run -d -p 911:22 --tmpfs /run --tmpfs /tmp -v /sys/fs/cgroup:/sys/fs/cgroup ssh_test
+
+
+#echo 'newpassword' |passwd root --stdin #to set paswd after login for ssh
+
