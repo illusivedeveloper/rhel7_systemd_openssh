@@ -1,6 +1,6 @@
 # rhel7_systemd_openssh
 
-rhel7_init ubi image with systemd and openssh-server (also includes openssh-clients)
+ubi7_init ubi image with systemd and openssh-server (also includes openssh-clients and openssh)
 
 1. To build image:
 > cd path/to/repo
