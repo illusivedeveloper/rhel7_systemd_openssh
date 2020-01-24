@@ -2,9 +2,11 @@
 
 rhel7_init ubi image with systemd and openssh-server (also includes openssh-clients)
 
-To build image:
+1. To build image:
+> cd path/to/repo
 > $ docker build -t image_name .
-To run image use:
+
+2. To run image use:
 > $ docker container run -d -p 911:22 --tmpfs /run --tmpfs /tmp -v /sys/fs/cgroup:/sys/fs/cgroup image_name
 
 To get into the shell of continer use:
